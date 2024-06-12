@@ -1,4 +1,4 @@
-from __init__ import conn, cursor
+from database.connection import conn, cursor
 
 class Courses:
     def __init__(self, first_course, duration):
