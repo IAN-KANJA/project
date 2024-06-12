@@ -1,4 +1,5 @@
-from __init__ import conn ,cursor
+from database.connection import conn , cursor
+
 class Student:
 
     def __init__(
