@@ -11,11 +11,11 @@ def exit_program():
 def create_student():
     first_name = input("Enter firstname: ")
     second_name = input("Enter secondname: ")
-    gender = input("Enter gender ")
+    gender = input("Enter gender: ")
     age = int(input("Enter age: "))
-    phone = input("Enter phone")
-    username =input ("Enter username")
-    email = input ("Enter email")
+    phone = input("Enter phone:")
+    username =input ("Enter username: ")
+    email = input ("Enter email: ")
     print(create_student)
 
 def delete_student():
